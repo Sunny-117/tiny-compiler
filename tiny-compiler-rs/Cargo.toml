@@ -1,0 +1,18 @@
+[package]
+name = "tiny-compiler-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A tiny compiler implementation in Rust, translating LISP-like syntax to JavaScript"
+license = "MIT"
+repository = "https://github.com/your-username/tiny-compiler-rs"
+keywords = ["compiler", "parser", "ast", "lisp", "javascript"]
+categories = ["compilers", "parsing"]
+
+[dependencies]
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+pretty_assertions = "1.4"
